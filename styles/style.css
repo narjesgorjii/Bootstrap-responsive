@@ -1,0 +1,92 @@
+@font-face {
+    font-family: poppinsBold;
+    src: url("..//assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: poppinsRegular;
+    src: url("..//assets/fonts/Poppins-Regular.ttf");
+}
+
+:root {
+    /* --"somekey-attr": "somevalue" i.e : */
+    --orange: #FA8305;
+    --gradiant: #3B2A9F;
+    --gradiant-light: #5141AA;
+    --dark-brown: #1C140F;
+    --black: #070707;
+
+}
+
+/* fonts */
+
+.fb {
+    font-family: poppinsBold;
+}
+
+.fr {
+    font-family: poppinsRegular;
+}
+
+
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+
+.bg-gradiant {
+    background-color: var(--gradiant);
+}
+
+.bg-gradiant-light {
+    background-color: var(--gradiant-light);
+}
+
+.bg-dark-brown {
+    background-color: var(--dark-brown);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+
+
+
+.orange {
+    color: var(--orange);
+}
+
+.gradiant-light {
+    color: var(--gradiant-light);
+}
+
+.dark-brown {
+    color: var(--dark-brown);
+}
+
+.black {
+    color: var(--black);
+}
+
+
+/* menu icon for tablet & mobile */
+.menu {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 7px 0;
+}
+
+.pic:hover{
+    opacity: 30%;
+}
+
+.follower:hover{
+    scale: 120%;
+}
+
+ul li {
+    list-style-type: none;
+}
